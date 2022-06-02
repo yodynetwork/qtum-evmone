@@ -11,7 +11,7 @@
 #include <evmone/evmone.h>
 #include <iostream>
 
-#ifdef QTUM_BUILD
+#ifdef YODY_BUILD
 #define PROJECT_VERSION "0.8.1"
 #endif
 

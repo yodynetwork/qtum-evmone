@@ -125,7 +125,7 @@ evmc_status_code create(ExecutionState& state) noexcept
             return EVMC_OUT_OF_GAS;
     }
 
-#ifdef QTUM_BUILD
+#ifdef YODY_BUILD
     if (endowment != 0)
         return EVMC_CREATE_WITH_VALUE;
 #endif
